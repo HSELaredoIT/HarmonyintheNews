@@ -29,3 +29,33 @@ plugins:
 # Custom variables
 google_analytics: ""
 owner : "Harmony Public Schools"
+
+#Prose Config
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://hselaredoit.github.io/HarmonyintheNews/'
+  media: 'assets/images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /tag
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "published"
+        field:
+          element: "select"
+          label: "Publish Page"
+          placeholder: "Choose"
+          value: "true"
+          options:
+            - name: "Yes"
+              value: "true"
+            - name: "No"
+              value: "false"
