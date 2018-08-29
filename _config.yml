@@ -1,0 +1,34 @@
+# Site settings
+title: Harmony School of Excellece / FTC Robotics Team
+subtitle:
+email: sergio.ortega@harmonytx.org
+description:
+baseurl: "/FTCrobotics" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+author:
+street_address: 4401 San Francisco Ave. Building B
+city: Laredo
+state: Tx
+zip_code: 78041
+country: United States of America
+phone: (956) 791-0007
+
+# Social settings
+500px_url:
+facebook_url: https://www.facebook.com/hselaredo/
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/company/713845/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/HseLaredo
+discord_url:
+
+# Sass building
+sass:
+    sass_dir: _sass
+
+# Build settings
+markdown: kramdown

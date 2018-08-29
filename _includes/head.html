@@ -1,0 +1,13 @@
+<head>
+  <title>{{ site.title }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <!--[if lte IE 8]><script src="{{ 'assets/js/ie/html5shiv.js' | relative_url }}"></script><![endif]-->
+  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
+  <!--[if lte IE 9]><link rel="stylesheet" href="{{ 'assets/css/ie9.css' | relative_url }}" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="{{ 'assets/css/ie8.css' | relative_url }}" /><![endif]-->
+  <meta name="nslsettings" content="10.10.10.6:443/Room108,Room109,Room110,Room111,Room112,Room113,Room114,Room115,Room116,Room117,Room118,Room119,Room120,Room201,Room202,Room203,Room204,Room206,Room207,Room214,Room215,Room216,Room217,Room222,Room223,Room224,Room225,Room226,Room227,Room228,Room229" data-update-conf="36ce8ab18d8738b9782366dbc784e234a4e428cbb21026649458ac2ad43cf3ac" />
+  {% if site.tags != "" %}
+  {% include tag.html %}
+  {% endif %}
+</head>
