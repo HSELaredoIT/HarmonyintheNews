@@ -59,3 +59,14 @@ prose:
               value: "true"
             - name: "No"
               value: "false"
+      - name: "pinned"
+        field:
+          element: "select"
+          label: "Publish Page"
+          placeholder: "Choose"
+          value: "true"
+          options:
+            - name: "Yes"
+              value: "true"
+            - name: "No"
+              value: "false"
