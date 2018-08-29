@@ -1,11 +1,11 @@
-title: "newspaper"
-description: "Sample of newspaper Jekyll theme."
+title: "Harmony in the News"
+description: ""
 author:
   name: "newspaper"
   email: "mail@example.com"
-  
-url: "https://vllur.github.io"
-baseurl: /newspaper
+
+url: "https://HSELaredoIT.github.io"
+baseurl: /HarmonyintheNews
 
 source: .
 destination: ./_site
