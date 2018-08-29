@@ -1,0 +1,43 @@
+main > .block
+{
+	border-left: 1px solid $block-border;
+	border-right: 1px solid $block-border;
+	padding: 5% 5%;
+	background-color: $white;
+	margin-top: 5%;
+	overflow-x: hidden;
+}
+
+img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+main > .menu
+{
+	padding: 5% 0;
+}
+
+main > .note > ul
+{
+	list-style-type: none;
+    margin: 0;
+}
+
+main > .note > h2
+{
+	margin-top: 0;
+}
+
+main > .note > h4
+{
+	margin: 0;
+}
+
+main > .pinned
+{
+	border-right: 1px solid $block-border;
+	border-bottom: 1px solid $block-border;
+	padding: 3% 5% 0% 5%;
+}

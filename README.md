@@ -1,84 +1,63 @@
-# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
+# [![newspaper](./assets/logo.png)](https://vllur.github.io/newspaper/)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Build Status](https://travis-ci.org/vllur/newspaper.svg?branch=master)](https://travis-ci.org/vllur/newspaper)
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
-[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
-[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
+Light box Jekyll theme.
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.png)
+### Main features:
+- full Github Pages compatibility
+- tags
+- custom baseurl support
+- Google Analytics support
+- complex Travis CI testing with [htmlproofer](https://github.com/gjtorikian/html-proofer) (thanks to [jekyll-test](https://github.com/Floppy/jekyll-test) gem)
+- 2 side menus
+- customizable layout (boxes, colors)
+- post pinning, with automatic de-pinning after certain number of new pinned post (default: 2)
 
-![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png)
+### Dependencies:
+- jekyll plugins
+  - see [Gemfile](./Gemfile) for full list
+- external libraries
+  - [normalize.css](https://github.com/necolas/normalize.css) (8.0) ([local](./css/normalize.css))
+- Google Fonts
+  - [Open Sans](https://fonts.google.com/specimen/Open+Sans) font
 
-TeXt is a customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+### Usage:
+To start using it, fork this repo and rename it to: 
+- ```your-repository-name``` and in settings publish it from master branch
+  - will be accessible at ```username.github.io/your-repository-name```
+- or ```username.github.io```
+  - will be accessible at ```username.github.io```
 
-[Change Log](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/CHANGELOG.md) | [中文文档](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)
+Then you need to properly change ```_config.yml```:
+```yml
+url: "https://username.github.io"
+baseurl: /
+```
+If your repository is the root of your Github Pages site, or
+```yml
+url: "https://username.github.io"
+baseurl: /your-repository-name
+```
+else.
 
-## Features
+Now you can custumize it (css parts are in ```_sass``` directory), clear the _posts directory and start placing your own posts in there. Few sample post are available for reference.
 
-- Responsive
-- Skins
-- Highlight Theme
-- Table of contents
-- Authors
-- Multi-language support(English, Simplified Chinese, Traditional Chinese)
-- Search
-- Semantic HTML
-- RSS（[jekyll-feed](https://github.com/jekyll/jekyll-feed))
-- Contact information (Email, Facebook, Twitter, Linkedin, Weibo, Zhihu, etc)
-- Mathematical formula ([MathJax](https://www.mathjax.org/))
-- Flowchart, Sequence diagram, Gantt diagram ([mermaid](https://mermaidjs.github.io/))
-- Line Chart, Bar Chart, Radar Chart, Pie Chart ([chartjs](http://www.chartjs.org/))
-- Page views ([LeanCloud](https://leancloud.cn/))
-- Comments ([Disqus](https://disqus.com/))
-- Google Analytics
+You can specify your post's tags in post's yaml front matter separated by space, like this:
+```yml
+---
+tags: funny cats
+---
+```
+Then run [this python script](https://github.com/qian256/qian256.github.io/blob/master/tag_generator.py) to generate unique site for each tag.
 
-## Skins
+If you want to pin a post, set its ```pinned``` variable to true:
+```yml
+---
+pinned: true
+---
+```
+or to false otherwise.
 
-You can choose these 6 built-in skins below:
-
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.png) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.png) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.png) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.png) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.png) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.png) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
-
-## Documentation
-
-### Start
-
-- [Quick Start](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start)
-- [Update form 1.x to 2.x](https://tianqi.name/jekyll-TeXt-theme/docs/en/update-form-1-to-2)
-
-### Customization
-
-- [Configuration](https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration)
-- [Navigation](https://tianqi.name/jekyll-TeXt-theme/docs/en/navigation)
-- [Layouts](https://tianqi.name/jekyll-TeXt-theme/docs/en/layouts)
-- [Logo and Favicon](https://tianqi.name/jekyll-TeXt-theme/docs/en/logo-and-favicon)
-- [Authors](https://tianqi.name/jekyll-TeXt-theme/docs/en/authors)
-
-### Content
-
-- [Writing Posts](https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts)
-- [Markdown Enhancements](https://tianqi.name/jekyll-TeXt-theme/docs/en/markdown-enhancements)
-- [Additional styles](https://tianqi.name/jekyll-TeXt-theme/docs/en/additional-styles)
-
-## Demo Pages
-
-| Name | Description |
-| --- | --- |
-| [Home](https://tianqi.name/jekyll-TeXt-theme/test/) | Home page with posts list |
-| [Archive](https://tianqi.name/jekyll-TeXt-theme/archive.html) | You can filter tags and search here |
-
-## License
-
-TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+### Notes
+- linking to internal files by relative url (example in post by ```[article](/article)``` will cause tests to fail. If you encounter this, use absolute url.

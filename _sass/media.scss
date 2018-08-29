@@ -1,0 +1,90 @@
+@media only screen and (min-width: 1512px)
+{
+	body
+	{
+		font-size: 18px;
+	}
+	
+	.block
+	{
+		margin-top: 1.5% !important;
+	}
+	
+	main
+	{
+		width: 40%;
+	}
+	
+	main > .menu
+	{
+		top: 7.5%;
+		width: 12.5%;
+	}
+	
+	main > .right-menu
+	{
+		right: 6.5%;
+	}
+	
+	main > .left-menu
+	{
+		left: 6.5%;
+	}
+}
+
+@media only screen and (max-width: 1000px)
+{
+	body
+	{
+		font-size: 14px;
+	}
+	
+	.block
+	{
+		margin-top: 2.5% !important;
+	}
+	
+	main
+	{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 800px)
+{
+	body
+	{
+		font-size: 16px;
+	}
+
+	main
+	{
+		width: 50%;
+	}
+	
+	main > nav
+	{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 600px)
+{
+	body
+	{
+		font-size: 14px;
+	}
+
+	main
+	{
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 480px)
+{
+	body
+	{
+		font-size: 12px;
+	}
+}

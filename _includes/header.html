@@ -1,34 +1,60 @@
-<header class="header">
-  <div class="main">
-    <div class="header__main">
-      <div class="logo">
-        {%- include svg/logo.svg -%}
-        {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
-        {%- include snippets/get-nav-url.html path=_paths_root -%}
-        {%- if site.title -%}
-          <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
-        {%- endif -%}
-      </div>
-      <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
-    </div>
-    {%- if site.data.navigation.header -%}
-    <nav class="navigation">
-      <ul>
-        {%- for _item in site.data.navigation.header -%}
-          {%- include snippets/get-nav-url.html path=_item.url -%}
-          {%- assign _nav_url = __return -%}
-          {%- include snippets/get-nav-url.html path=page.url -%}
-          {%- assign _page_url = __return -%}
-          {%- include snippets/locale-to-string.html locale=_item.titles -%}
-          {%- if _nav_url == _page_url -%}
-            <li class="active"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
-          {%- else -%}
-            <li><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
-          {%- endif -%}
-        {%- endfor -%}
-        <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
-      </ul>
-    </nav>
-    {%- endif -%}
-  </div>
+<nav class="block upperbar">
+	<a href="{{ site.url }}{{ site.baseurl }}">Home</a> | <a href="{{ site.url }}{{ site.baseurl }}/archive">Archive</a> | <a href="{{ site.url }}{{ site.baseurl }}/tag">Tags</a> | <a href="{{ site.url }}{{ site.baseurl }}/atom.xml">RSS</a>
+</nav>
+
+<nav class="block menu left-menu">
+	<ul>
+		<li class="menu-item" onclick="toggle_visibility('submenu_1');">
+			Lorem
+			<ul class="submenu" id="submenu_1">
+				<hr>
+					<li class="menu-item" onclick="location.href = '{{ site.url }}{{ site.baseurl }}/';">ipsum</li>
+					<li class="menu-item" onclick="location.href = '{{ site.url }}{{ site.baseurl }}/';">dolor</li>
+				<hr>
+			</ul>
+		</li>
+		<li class="menu-item" onclick="toggle_visibility('submenu_2');">
+			Lorem
+			<ul class="submenu" id="submenu_2">
+				<hr>
+					<li class="menu-item" onclick="location.href = '{{ site.url }}{{ site.baseurl }}/';">ipsum</li>
+					<li class="menu-item" onclick="location.href = '{{ site.url }}{{ site.baseurl }}/';">dolor</li>
+				<hr>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+
+<header class="block logo">
+	<img src="{{ site.url }}{{ site.baseurl }}/assets/logo.png" alt="newspaper"> 
 </header>
+
+<nav class="block info">
+	
+	Sample of <a href="{{ site.url }}{{ site.baseurl }}">newspaper</a> Jekyll theme.
+	
+</nav>
+
+<nav class="block menu right-menu">
+	<ul>
+		<li class="menu-item" onclick="toggle_visibility('submenu_3');">
+			Lorem
+			<ul class="submenu" id="submenu_3">
+				<hr>
+					<li class="menu-item" onclick="location.href = '{{ site.url }}{{ site.baseurl }}/';">ipsum</li>
+					<li class="menu-item" onclick="location.href = '{{ site.url }}{{ site.baseurl }}/';">dolor</li>
+				<hr>
+			</ul>
+		</li>
+		<li class="menu-item" onclick="toggle_visibility('submenu_4');">
+			Lorem
+			<ul class="submenu" id="submenu_4">
+				<hr>
+					<li class="menu-item" onclick="location.href = '{{ site.url }}{{ site.baseurl }}/';">ipsum</li>
+					<li class="menu-item" onclick="location.href = '{{ site.url }}{{ site.baseurl }}/';">dolor</li>
+				<hr>
+			</ul>
+		</li>
+	</ul>
+</nav>
