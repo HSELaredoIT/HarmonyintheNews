@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
+<header class="block logo">
+	<img src="{{ site.url }}{{ site.baseurl }}/assets/brand_laredo_logo_download.jpeg" alt="logo">
+</header>
 
 <article class="block">
   <h1> {{ page.title }} </h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
-  {% include tags.html %}
   <br/>
   {{ content }}
 </article>
