@@ -1,40 +1,34 @@
-<!-- Header -->
-  <header id="header">
-    <a href="{{ '/' | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> {{ site.subtitle }}</a>
-    <ul class="icons">
-      {% if site.twitter_url %}
-      <li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-      {% endif %}
-      {% if site.googleplus_url %}
-      <li><a href="{{ site.googleplus_url }}" class="icon fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
-      {% endif %}
-      {% if site.facebook_url %}
-      <li><a href="{{ site.facebook_url }}" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-      {% endif %}
-      {% if site.instagram_url %}
-      <li><a href="{{ site.instagram_url }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-      {% endif %}
-      {% if site.pinterest_url %}
-      <li><a href="{{ site.pinterest_url }}" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
-      {% endif %}
-      {% if site.500px_url %}
-      <li><a href="{{ site.500px_url }}" class="icon fa-500px" target="_blank"><span class="label">500px</span></a></li>
-      {% endif %}
-      {% if site.gitlab_url %}
-      <li><a href="{{ site.gitlab_url }}" class="icon fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
-      {% endif %}
-      {% if site.github_url %}
-      <li><a href="{{ site.github_url }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-      {% endif %}
-      {% if site.slack_url %}
-      <li><a href="{{ site.slack_url }}" class="icon fa-slack" target="_blank"><span class="label">Slack</span></a></li>
-      {% endif %}
-      {% if site.linkedin_url %}
-      <li><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-      {% endif %}
-      {% if site.discord_url %}
-      <li><a href="{{ site.discord_url }}" class="icon fa-discord" target="_blank"><span class="label">Discord</span></a></li>
-      {% endif %}
-      <li><a href="http://www.k12insight.com/Lets-Talk/embed.aspx?L=PK9YY2D3DLT" class="icon fa-comments" target="_blank"><span class="label">Let's Talk</span></a></li>
-    </ul>
-  </header>
+<header class="header">
+  <div class="main">
+    <div class="header__main">
+      <div class="logo">
+        {%- include svg/logo.svg -%}
+        {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
+        {%- include snippets/get-nav-url.html path=_paths_root -%}
+        {%- if site.title -%}
+          <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
+        {%- endif -%}
+      </div>
+      <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
+    </div>
+    {%- if site.data.navigation.header -%}
+    <nav class="navigation">
+      <ul>
+        {%- for _item in site.data.navigation.header -%}
+          {%- include snippets/get-nav-url.html path=_item.url -%}
+          {%- assign _nav_url = __return -%}
+          {%- include snippets/get-nav-url.html path=page.url -%}
+          {%- assign _page_url = __return -%}
+          {%- include snippets/locale-to-string.html locale=_item.titles -%}
+          {%- if _nav_url == _page_url -%}
+            <li class="active"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+          {%- else -%}
+            <li><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+        <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
+      </ul>
+    </nav>
+    {%- endif -%}
+  </div>
+</header>
