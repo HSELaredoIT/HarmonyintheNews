@@ -1,4 +1,4 @@
-body 
+body
 {
 	margin: 0;
 	padding: 0;
@@ -15,23 +15,23 @@ main
 	width: 40%;
 }
 
-a:link 
+a:link
 {
     color: $link;
 	text-decoration: none;
 }
 
-a:visited 
+a:visited
 {
     color: $link;
 }
 
-a:hover 
+a:hover
 {
     color: $linkbrightest;
 }
 
-a:active 
+a:active
 {
     color: $linkbrighter;
 	text-decoration: none;
@@ -46,4 +46,9 @@ time
 hr
 {
 	margin: 0;
+}
+
+img.resize{
+    width:100%; /* you can use % */
+    height: auto;
 }
