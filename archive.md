@@ -29,7 +29,7 @@ title: Archive
         {% endif %}
       {% endunless %}
         <li><time>{{ post.date | date:"%d %b" }} - </time>
-          <a href="{{ site.url }}{{ site.baseurl }}/{{ post.url }}">
+          <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
           </a>
         </li>
