@@ -51,8 +51,12 @@ prose:
       - name: "tags"
         field:
           element: "multiselect"
-          value: "page"
+          value: "page article"
           alterable: "true"
+          - name: "Page"
+            value: "page"
+          - name: "Article"
+            value: "article"
       - name: "published"
         field:
           element: "select"
