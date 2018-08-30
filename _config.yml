@@ -52,7 +52,7 @@ prose:
         field:
           element: "multiselect"
           label: "Tags"
-          value: "[ page, article ]"
+          value: "article"
           alterable: "true"
           options:
             - name: "Page"
