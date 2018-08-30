@@ -69,7 +69,7 @@ prose:
           element: "select"
           label: "Pin Article"
           placeholder: "Choose"
-          value: "true"
+          value: "false"
           options:
             - name: "Yes"
               value: "true"
