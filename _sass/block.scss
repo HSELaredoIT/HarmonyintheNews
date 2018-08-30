@@ -14,7 +14,7 @@ img
 	max-height: 100%;
 }
 
-img.resize
+img > .resize
 {
     width:80%; /* you can use % */
     height: auto;
@@ -46,4 +46,9 @@ main > .pinned
 	border-right: 1px solid $block-border;
 	border-bottom: 1px solid $block-border;
 	padding: 3% 5% 0% 5%;
+}
+
+main > .article
+{
+	width: 60%;
 }
