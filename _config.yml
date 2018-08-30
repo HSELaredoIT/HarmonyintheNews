@@ -50,8 +50,9 @@ prose:
           label: "title"
       - name: "tags"
         field:
-          element: "hidden"
-          label: "page"
+          element: "multiselect"
+          value: "page"
+          alterable: "true"
       - name: "published"
         field:
           element: "select"
