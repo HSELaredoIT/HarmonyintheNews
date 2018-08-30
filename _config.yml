@@ -53,10 +53,11 @@ prose:
           element: "multiselect"
           value: "page article"
           alterable: "true"
-          - name: "Page"
-            value: "page"
-          - name: "Article"
-            value: "article"
+          options:
+            - name: "Page"
+              value: "page"
+            - name: "Article"
+              value: "article"
       - name: "published"
         field:
           element: "select"
