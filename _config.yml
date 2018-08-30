@@ -51,6 +51,7 @@ prose:
       - name: "tags"
         field:
           element: "multiselect"
+          label: "Tags"
           value: "page article"
           alterable: "true"
           options:
