@@ -1,34 +1,83 @@
-# Site settings
-title: Harmony School of Excellece / FTC Robotics Team
-subtitle:
-email: sergio.ortega@harmonytx.org
-description:
-baseurl: "/FTCrobotics" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+title: "Harmony in the News"
+description: ""
 author:
-street_address: 4401 San Francisco Ave. Building B
-city: Laredo
-state: Tx
-zip_code: 78041
-country: United States of America
-phone: (956) 791-0007
+  name: "newspaper"
+  email: "mail@example.com"
 
-# Social settings
-500px_url:
-facebook_url: https://www.facebook.com/hselaredo/
-github_url:
-gitlab_url:
-googleplus_url:
-instagram_url:
-linkedin_url: https://www.linkedin.com/company/713845/
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/HseLaredo
-discord_url:
+url: "https://HSELaredoIT.github.io"
+baseurl: /HarmonyintheNews
 
-# Sass building
-sass:
-    sass_dir: _sass
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 2
+paginate_path: /page/:num/
 
-# Build settings
-markdown: kramdown
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+exclude: [vendor]
+plugins:
+  - jekyll-paginate
+
+# Custom variables
+google_analytics: ""
+owner : "Harmony Public Schools"
+
+#Prose Config
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://hselaredoit.github.io/HarmonyintheNews/'
+  media: 'assets/images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /tag
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          value: "article"
+          alterable: "true"
+          options:
+            - name: "Page"
+              value: "page"
+            - name: "Article"
+              value: "article"
+      - name: "published"
+        field:
+          element: "select"
+          label: "Publish Page"
+          placeholder: "Choose"
+          value: "true"
+          options:
+            - name: "Yes"
+              value: "true"
+            - name: "No"
+              value: "false"
+      - name: "pinned"
+        field:
+          element: "select"
+          label: "Pin Article"
+          placeholder: "Choose"
+          value: "false"
+          options:
+            - name: "Yes"
+              value: "true"
+            - name: "No"
+              value: "false"
