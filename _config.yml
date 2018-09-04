@@ -48,14 +48,6 @@ prose:
         field:
           element: "text"
           label: "title"
-      - name: "published"
-        field:
-          element: "button"
-          label: "Publish Page"
-          value: "true"
-          options:
-            on : "true"
-            off: "false"
       - name: "tags"
         field:
           element: "multiselect"
@@ -67,11 +59,25 @@ prose:
               value: "page"
             - name: "Article"
               value: "article"
+      - name: "published"
+        field:
+          element: "select"
+          label: "Publish Page"
+          placeholder: "Choose"
+          value: "true"
+          options:
+            - name: "Yes"
+              value: "true"
+            - name: "No"
+              value: "false"
       - name: "pinned"
         field:
-          element: "button"
+          element: "select"
           label: "Pin Article"
-          help: "Pin Article to front page."
+          placeholder: "Choose"
+          value: "false"
           options:
-              on: "true"
-              off: "false"
+            - name: "Yes"
+              value: "true"
+            - name: "No"
+              value: "false"
