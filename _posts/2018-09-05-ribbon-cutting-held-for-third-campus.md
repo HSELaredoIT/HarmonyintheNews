@@ -8,7 +8,7 @@ title: RIBBON-CUTTING HELD FOR THIRD CAMPUS
 _**BY ANDREA CASTAÑEDA LAREDO MORNING TIMES**_
 <div style="float: right;">
 <img src="assets/images/ribbon-cutting.jpeg">
-
+</br>
 **Cuate Santos / Laredo Morning Times**
 
 **Local and state officials join forces with Harmony Public Schools officials for the ribbon-cutting ceremony for Laredo's newest high school, Harmony School of Excellence, on Thursday. See related story on A3**
