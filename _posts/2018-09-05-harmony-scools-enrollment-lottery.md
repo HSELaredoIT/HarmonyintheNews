@@ -6,6 +6,24 @@ published: true
 pinned: 'false'
 title: Harmony Scools Enrollment Lottery
 ---
+_**By Andrea Castañeda**_
+<br/>
+_LAREDO MORNING TIMES_
+
+![image.FQODPZ.png]({{site.baseurl}}/assets/images/image.FQODPZ.png)
+*Cuate Santos / Laredo Morning Times*
+*Isabel Rodriguez, from the Harmony Science Academy, explained the rules and regulations
+for the public lottery for available seats for students in the elementary and middle schools
+for the 2017-2018 school year. The lottery was held Wednesday at the Harmony Science
+Academy cafeteria.*
+
+![image.SAR6OZ.png]({{site.baseurl}}/assets/images/image.SAR6OZ.png){: .right}
+*Cuate Santos / Laredo Morning Times*
+*Yuridia and Victor Solis, in foreground,
+look at a chart indicating the number of
+slots available for Harmony elementary and
+middle school students on Wednesday.*
+
 <div class="row">
   <div class="column">
 	<p>
