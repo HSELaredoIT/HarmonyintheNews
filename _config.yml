@@ -29,6 +29,7 @@ plugins:
 # Custom variables
 google_analytics: ""
 owner : "Harmony Public Schools"
+markdown: kramdown
 
 #Prose Config
 prose:
