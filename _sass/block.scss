@@ -2,7 +2,7 @@ main > .block
 {
 	border-left: 1px solid $block-border;
 	border-right: 1px solid $block-border;
-	padding: 5% 5%;
+	padding: 5% 10%;
 	background-color: $white;
 	margin-top: 5%;
 	overflow-x: hidden;
@@ -56,9 +56,16 @@ main > .article
 	font-family: 'Lora', serif;
 }
 
-main > .right
+main > .left
 {
 	float: left;
+	width:50%;
+	padding: 3% 3%;
+}
+
+main > .right
+{
+	float: right;
 	width:50%;
 	padding: 3% 3%;
 }
