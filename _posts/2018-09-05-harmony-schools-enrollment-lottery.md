@@ -43,10 +43,8 @@ Wednesday to select
 students for the
 2017-18 school year.
 When the number of students
-interested in a specif-
-ic grade exceeds the
-number of seats avail-
-able, names are drawn
+interested in a specific grade exceeds the
+number of seats available, names are drawn
 through a random
 automated lottery
 process. During the
@@ -55,13 +53,11 @@ displayed to show
 parents the rundown
 of the process,
 which included number
-of applicants, maxi-
-mum number of students
+of applicants, maximum number of students
 in each grade and
 number of applicants
 who were siblings of
-students currently en-
-rolled.
+students currently enrolled.
 The lottery underwent
 two rounds with the first
 portion consisting of a
@@ -73,42 +69,35 @@ second round included
 all applicants. While the
 random selection offers
 an opportunity to all
-applicants, Nicole Roma-
-nos, campus outreach
+applicants, Nicole Romanos, campus outreach
 coordinator, explained
 that consideration goes
 to those with siblings
 already enrolled.
-“We kind of accommo-
-date sometimes because I
+“We kind of accommodate sometimes because I
 know parents have a
 concern if they have two
 kids,” Romanos said.
-“Again, it’s not a guaran-
-tee. It’s just a percentage
-so it won’t be all the sib-
-lings. Based on the
+“Again, it’s not a guarantee. It’s just a percentage
+so it won’t be all the siblings. Based on the
 amount of people that
 applied, they’ll take a
 percentage of that for
 siblings.”
 Out of 503 applicants
-for elementary, 95 stu-
-dents were drawn to
+for elementary, 95 students were drawn to
 attend the Harmony
 School of Innovation.
 Among a total of 300
 applicants for middle
 school, 284 were chosen
-for admission to Harmo-
-ny Science Academy.
+for admission to Harmony Science Academy.
 Once a child is selected
 from the lottery, they
 have 10 days to submit
 documents required to
 proceed with enrollment
-and a waiting list is de-
-veloped for those not yet
+and a waiting list is developed for those not yet
 	</p>
   </div>
   <div class="column">
@@ -119,19 +108,14 @@ them to remain on the
 wait list and look over
 the summer for possible
 callbacks of acceptance,”
-Geraldine Salas, princi-
-pal of Harmony School of
+Geraldine Salas, principal of Harmony School of
 Innovation, said.
 The Harmony schools
 have seen a high demand
-in admission since open-
-ing their doors. Current-
-ly, the high school and
+in admission since opening their doors. Currently, the high school and
 middle school levels
-occupy the same build-
-ing. But they will soon be
-housed in separate build-
-ings. The school is seeing
+occupy the same building. But they will soon be
+housed in separate buildings. The school is seeing
 an expansion for the
 high school, which is
 under construction and
@@ -141,24 +125,18 @@ new addition provides
 more space for middle
 school students, thus
 allowing a larger window
-of availability for enroll-
-ment.
+of availability for enrollment.
 After hearing good
 things about the school,
-Elizabeth Rosales decid-
-ed to apply. Rosales had
-two children in the lot-
-tery for sixth and eighth
-grade. Both were accept-
-ed. Maribel Lopez, cur-
-rent assistant principal
+Elizabeth Rosales decided to apply. Rosales had
+two children in the lottery for sixth and eighth
+grade. Both were accepted. Maribel Lopez, current assistant principal
 of Harmony Science
 Academy, said this year
 was the best to apply.
 “Usually we only get
 like three to maximum 10
-students per year be-
-cause our students, they
+students per year because our students, they
 like our academy, so they
 stay here,” Lopez said.
 “I’m very happy for the
@@ -179,16 +157,13 @@ bigger because our kids
 travel from one school to
 the other.”
 Romanos explained
-how the number of stu-
-dents selected depends
-on the correlation be-
-tween availability and
+how the number of students selected depends
+on the correlation between availability and
 number of applicants.
 “This time for the
 middle school we had a
 lot accepted because
-we’re expanding,” Roma-
-nos said. “It’s easier to
+we’re expanding,” Romanos said. “It’s easier to
 get into the school, in a
 sense for kinder because
 we’re looking a three
@@ -205,12 +180,8 @@ Principal of Harmony
 School of Excellence
 Mustfa Ayik said a total
 of about 100 students will
-be accepted for the fol-
-lowing year.
-“Our capacity is prob-
-ably going to be maxi-
-mum 400 and we cur-
-rently have 280,” Ayik
+be accepted for the following year.
+“Our capacity is probably going to be maximum 400 and we currently have 280,” Ayik
 said. “The construction
 is finishing up and it will
 be an easy transition for
@@ -219,11 +190,9 @@ us.
 to grow our students
 with our own school
 system. Starting with
-elementary them know-
-ing the discipline, rules
+elementary them knowing the discipline, rules
 and regulations as well
-as our academic expecta-
-tions and coming trained
+as our academic expectations and coming trained
 to our middle school as
 well as moving from
 there to our high school.”
