@@ -10,6 +10,8 @@ _**By Andrea Castañeda**_
 <br/>
 _LAREDO MORNING TIMES_
 
+###Students interested in a specific grade exceeds number of seats available
+
 ![image.FQODPZ.png]({{site.baseurl}}/assets/images/image.FQODPZ.png)
 *Cuate Santos / Laredo Morning Times*
 *Isabel Rodriguez, from the Harmony Science Academy, explained the rules and regulations
