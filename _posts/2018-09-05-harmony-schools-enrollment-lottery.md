@@ -21,6 +21,14 @@ Academy cafeteria.*
 
 <div class="row">
   <div class="column">
+  <p>
+    <h2>
+Students interested
+in a specific grade
+exceeds number of
+seats available
+    </h2>
+  </p>
 	<p markdown="1">
 
 ![image.SAR6OZ.png]({{site.baseurl}}/assets/images/image.SAR6OZ.png){: .right}
@@ -66,7 +74,12 @@ with siblings already
 attending one of the
 Harmony schools. The
 second round included
-all applicants. While the
+all applicants.
+	</p>
+  </div>
+  <div class="column">
+    <p>
+While the
 random selection offers
 an opportunity to all
 applicants, Nicole Romanos, campus outreach
@@ -98,10 +111,6 @@ have 10 days to submit
 documents required to
 proceed with enrollment
 and a waiting list is developed for those not yet
-	</p>
-  </div>
-  <div class="column">
-    <p>
 selected.
 “We do encourage
 them to remain on the
@@ -128,7 +137,12 @@ allowing a larger window
 of availability for enrollment.
 After hearing good
 things about the school,
-Elizabeth Rosales decided to apply. Rosales had
+Elizabeth Rosales decided to apply.
+    </p>
+  </div>
+  <div class="column">
+    <p>
+Rosales had
 two children in the lottery for sixth and eighth
 grade. Both were accepted. Maribel Lopez, current assistant principal
 of Harmony Science
@@ -146,10 +160,6 @@ year because usually
 every year in the lottery
 you’d see disappointment
 because of the space.
-    </p>
-  </div>
-  <div class="column">
-    <p>
 	“I’m glad that we’re
 expanding for next year
 so that way we’re going
