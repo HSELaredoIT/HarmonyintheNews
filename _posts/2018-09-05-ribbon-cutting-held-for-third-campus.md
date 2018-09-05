@@ -9,7 +9,7 @@ date: 'Fri Oct 13 2017 07:00:00 GMT-0500 (CDT)'
 _**BY ANDREA CASTAÑEDA**_m
 _LAREDO MORNING TIMES_
 <div style="padding: 2% 2%;">
-<img src="assets/images/ribbon-cutting.jpeg">
+<img src="assets/images/ribbon-cutting.png">
 <br>
 <b>Cuate Santos / Laredo Morning Times</b>
 <p>
