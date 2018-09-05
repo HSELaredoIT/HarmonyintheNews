@@ -4,7 +4,7 @@ tags:
   - article
 published: true
 pinned: 'false'
-title: Harmony Scools Enrollment Lottery
+title: Harmony Schools Enrollment Lottery
 ---
 _**By Andrea Castañeda**_
 <br/>
@@ -18,38 +18,38 @@ for the 2017-2018 school year. The lottery was held Wednesday at the Harmony Sci
 Academy cafeteria.*
 
 <div class="row">
-  <div markdown ="1">
+  <div class="column">
+	<p markdown="1">
+
 ![image.SAR6OZ.png]({{site.baseurl}}/assets/images/image.SAR6OZ.png){: .right}
 *Cuate Santos / Laredo Morning Times*
 *Yuridia and Victor Solis, in foreground,
 look at a chart indicating the number of
 slots available for Harmony elementary and
 middle school students on Wednesday.*
-  </div>
-  <div class="column">
-	<p>
-	Test scores are not 
+
+	Test scores are not
 necessarily part of the
-equation for students 
+equation for students
 interested in attending
-any of three local 
+any of three local
 Harmony schools.
-As an open enrollment 
+As an open enrollment
 charter school,
 Harmony held a lottery
 Wednesday to select
-students for the 
+students for the
 2017-18 school year.
 When the number of students
 interested in a specif-
 ic grade exceeds the
 number of seats avail-
-able, names are drawn 
+able, names are drawn
 through a random
-automated lottery 
-process. During the 
-lottery, a screen was 
-displayed to show 
+automated lottery
+process. During the
+lottery, a screen was
+displayed to show
 parents the rundown
 of the process,
 which included number
