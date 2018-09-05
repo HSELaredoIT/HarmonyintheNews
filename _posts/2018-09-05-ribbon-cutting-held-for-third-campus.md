@@ -6,7 +6,7 @@ pinned: 'false'
 title: RIBBON-CUTTING HELD FOR THIRD CAMPUS
 date: 'Fri Oct 13 2017 07:00:00 GMT-0500 (CDT)'
 ---
-_**BY ANDREA CASTAÑEDA**_m
+_**BY ANDREA CASTAÑEDA**_ <br/>
 _LAREDO MORNING TIMES_
 <div style="padding: 2% 2%;">
 <img align="center" src="assets/images/ribbon-cutting.png">
