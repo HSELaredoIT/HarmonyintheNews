@@ -4,11 +4,11 @@ tags:
 published: true
 pinned: 'false'
 title: RIBBON-CUTTING HELD FOR THIRD CAMPUS
-date: 2017-10-13T12:00:00.000Z
+date: 'Fri Oct 13 2017 07:00:00 GMT-0500 (CDT)'
 ---
 _**BY ANDREA CASTAÑEDA**_
 _LAREDO MORNING TIMES_
-<div style="float: left; width:50%;padding: 2% 2%;">
+<div style="padding: 2% 2%;">
 <img src="assets/images/ribbon-cutting.jpeg">
 <br>
 <b>Cuate Santos / Laredo Morning Times</b>
