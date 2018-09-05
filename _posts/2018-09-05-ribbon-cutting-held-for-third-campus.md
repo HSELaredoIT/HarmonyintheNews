@@ -6,7 +6,7 @@ pinned: 'false'
 title: RIBBON-CUTTING HELD FOR THIRD CAMPUS
 ---
 _**BY ANDREA CASTAÑEDA LAREDO MORNING TIMES**_
-<div style="float: left; width:50%;">
+<div style="float: left; width:50%;padding: 5% 5%;">
 <img src="assets/images/ribbon-cutting.jpeg">
 </br>
 <b>Cuate Santos / Laredo Morning Times</b>
