@@ -5,14 +5,14 @@ published: true
 pinned: 'false'
 title: RIBBON-CUTTING HELD FOR THIRD CAMPUS
 ---
-<div style="float: right;">
-![ribbon-cutting.jpeg]({{site.baseurl}}/assets/images/ribbon-cutting.jpeg)
+**<div style="float: right;">
+<img src="assets/images/ribbon-cutting.jpeg">
 	<p>
-**Cuate Santos / Laredo Morning Times
+Cuate Santos / Laredo Morning Times
 
-Local and state officials join forces with Harmony Public Schools officials for the ribbon-cutting ceremony for Laredo's newest high school, Harmony School of Excellence, on Thursday. See related story on A3**
+Local and state officials join forces with Harmony Public Schools officials for the ribbon-cutting ceremony for Laredo's newest high school, Harmony School of Excellence, on Thursday. See related story on A3
 	</p>
-</div>
+</div>**
 
 Harmony Public Schools in Laredo, which once served 340 students and operated out of one building, has now grown to three campuses serving about 1,700 students.
 
