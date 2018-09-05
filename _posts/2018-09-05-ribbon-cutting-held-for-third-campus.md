@@ -4,6 +4,7 @@ tags:
 published: true
 pinned: 'false'
 title: RIBBON-CUTTING HELD FOR THIRD CAMPUS
+date: 2017-10-13T12:00:00.000Z
 ---
 _**BY ANDREA CASTAÑEDA LAREDO MORNING TIMES**_
 <div style="float: left; width:50%;padding: 3% 3%;">
