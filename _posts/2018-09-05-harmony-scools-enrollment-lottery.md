@@ -18,6 +18,14 @@ for the 2017-2018 school year. The lottery was held Wednesday at the Harmony Sci
 Academy cafeteria.*
 
 <div class="row">
+  <div markdown ="1">
+![image.SAR6OZ.png]({{site.baseurl}}/assets/images/image.SAR6OZ.png){: .right}
+*Cuate Santos / Laredo Morning Times*
+*Yuridia and Victor Solis, in foreground,
+look at a chart indicating the number of
+slots available for Harmony elementary and
+middle school students on Wednesday.*
+  </div>
   <div class="column">
 	<p>
 	Test scores are not 
@@ -160,13 +168,7 @@ you’d see disappointment
 because of the space.
     </p>
   </div>
-  <div class="column" markdown="1">
-![image.SAR6OZ.png]({{site.baseurl}}/assets/images/image.SAR6OZ.png){: .right}
-*Cuate Santos / Laredo Morning Times*
-*Yuridia and Victor Solis, in foreground,
-look at a chart indicating the number of
-slots available for Harmony elementary and
-middle school students on Wednesday.*
+  <div class="column">
     <p>
 	“I’m glad that we’re
 expanding for next year
