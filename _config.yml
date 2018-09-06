@@ -54,17 +54,17 @@ prose:
           element: "text"
           label: "Date"
           value: "CURRENT_DATETIME"
-  - name: "language"
-    field:
-      element: "select"
-      label: "Language"
-      placeholder: "Choose"
-      value: "en"
-      options:
-        - name: "English"
+      - name: "language"
+        field:
+          element: "select"
+          label: "Language"
+          placeholder: "Choose"
           value: "en"
-        - name: "Spanish"
-          value: "es"
+          options:
+            - name: "English"
+              value: "en"
+            - name: "Spanish"
+              value: "es"
       - name: "tags"
         field:
           element: "multiselect"
