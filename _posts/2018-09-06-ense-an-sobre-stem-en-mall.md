@@ -5,6 +5,7 @@ tags:
 published: true
 pinned: 'false'
 title: Enseñan sobre STEM en Mall
+language: es
 ---
 ![image.900WOZ.png]({{site.baseurl}}/assets/images/image.900WOZ.png){: .left}
 *Foto de cortesía*

@@ -5,6 +5,7 @@ published: true
 pinned: 'false'
 title: RIBBON-CUTTING HELD FOR THIRD CAMPUS
 date: 'Fri Oct 13 2017 07:00:00 GMT-0500 (CDT)'
+language: en
 ---
 _**BY ANDREA CASTAÑEDA**_
 <br/>
