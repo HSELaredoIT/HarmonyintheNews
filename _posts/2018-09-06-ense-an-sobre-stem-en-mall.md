@@ -13,11 +13,11 @@ la comunidad para hablar de temas de STEM sobre una mesa de
 artesanías y manualidades en el Mall Del Norte el sábado 2 de
 diciembre.*
 
-_ESPECIAL PARA TIEMPO DE
-LAREDO_
-
 <div class="row">
   <div class="column">
+    <p markdown="1">
+_ESPECIAL PARA TIEMPO DE LAREDO_
+    </p>
     <p>
       Las tres escuelas de Harmo-
 ny Public School en Laredo
@@ -66,4 +66,3 @@ STEM.
     </p>
   </div>
 </div>
-  
