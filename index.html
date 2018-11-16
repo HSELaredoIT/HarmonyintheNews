@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+{% for post in site.posts limit:2 %}
+  {% if post.pinned == true %}
+	<article class="block note pinned">
+	<h4><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h4>
+    {% include tags.html %}
+	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
+	</article>
+  {% endif %}
+{% endfor %}
+
+{% include pages.html %}
+
+{% for post in paginator.posts %}
+	<article class="block note">
+	<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+	<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+    {% include tags.html %}
+	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
+	</article>
+{% endfor %}
+
+{% include footer.html %}
