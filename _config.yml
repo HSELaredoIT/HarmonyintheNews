@@ -29,7 +29,6 @@ plugins:
 # Custom variables
 google_analytics: ""
 owner : "Harmony Public Schools"
-markdown: kramdown
 
 #Prose Config
 prose:
@@ -49,22 +48,6 @@ prose:
         field:
           element: "text"
           label: "title"
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          value: "CURRENT_DATETIME"
-      - name: "language"
-        field:
-          element: "select"
-          label: "Language"
-          placeholder: "Choose"
-          value: "en"
-          options:
-            - name: "English"
-              value: "en"
-            - name: "Spanish"
-              value: "es"
       - name: "tags"
         field:
           element: "multiselect"
